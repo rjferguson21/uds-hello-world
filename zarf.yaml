@@ -1,0 +1,31 @@
+kind: ZarfPackageConfig
+metadata:
+  name: uds-hello-world-package
+  description: "UDS Hello World Package"
+  architecture: amd64
+  version: 1.0
+components:
+- name: import-import-module
+  import:
+    name: import-module
+    url: oci://ghcr.io/rjferguson21/pepr-demo-dubbd/pepr-demo:0.1-skeleton
+- name: import-metallb
+  import:
+    name: metallb
+    url: oci://ghcr.io/rjferguson21/pepr-demo-dubbd/pepr-demo:0.1-skeleton
+- name: import-metallb-config
+  import:
+    name: metallb-config
+    url: oci://ghcr.io/rjferguson21/pepr-demo-dubbd/pepr-demo:0.1-skeleton
+- name: import-load-certs
+  import:
+    name: load-certs
+    url: oci://ghcr.io/rjferguson21/pepr-demo-dubbd/pepr-demo:0.1-skeleton
+- name: import-bigbang-pepr
+  import:
+    name: bigbang-pepr
+    url: oci://ghcr.io/rjferguson21/pepr-demo-dubbd/pepr-demo:0.1-skeleton
+- name: import-podinfo
+  import:
+    name: podinfo
+    url: oci://ghcr.io/rjferguson21/pepr-demo-dubbd/pepr-demo:0.1-skeleton
