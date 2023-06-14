@@ -23,7 +23,7 @@ jobs:
   publish-uds-package:
     needs: tag-new-version
     if: ${{ needs.tag-new-version.outputs.release_created == 'true'}}
-    uses: ./.github/workflows/uds-create.yaml
+    uses: ./.github/workflows/uds-create.yml
     with:
       working_dir: .
     secrets: inherit
