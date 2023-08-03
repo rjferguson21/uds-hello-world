@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.2](https://github.com/rjferguson21/uds-hello-world/compare/v0.1.1...v0.1.2) (2023-08-03)
+
+
+### Features
+
+* Update README.md ([730bb75](https://github.com/rjferguson21/uds-hello-world/commit/730bb7515f59a5447a9b385681ce4a17a53e685f))
+
 ## [0.1.1](https://github.com/rjferguson21/uds-hello-world/compare/v0.1.0...v0.1.1) (2023-07-20)
 
 
